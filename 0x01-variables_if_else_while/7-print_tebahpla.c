@@ -7,6 +7,7 @@
 int main(void)
 {
 	char chr;
+
 	for (chr = 'z'; chr >= 'a'; chr--)
 	{
 	putchar(chr);
