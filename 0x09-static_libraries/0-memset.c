@@ -6,7 +6,7 @@
 
 /* 0-memset */
 
-char *_memset(char *y, char e, unsigned int s)
+char *_memset(char *s, char b, unsigned int n)
 {
-    return memset(y, e, s);
+	return memset(s, b, n);
 }
