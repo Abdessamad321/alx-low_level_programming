@@ -6,7 +6,7 @@
 
 /*_strcat */
 
-char *_strcat(char *abc, char *xyz)
+char *_strcat(char *dest, char *src)
 {
-    return strcat(abc, xyz);
+	return strcat(*dest, *src);
 }
