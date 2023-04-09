@@ -4,9 +4,9 @@
 #include <ctype.h>
 #include <string.h>
 
-/* _putchar */
+/* 3-puts.c */
 
-int _putchar(char c)
+void _puts(char *s)
 {
-    return putchar(c);
+    puts(s);
 }

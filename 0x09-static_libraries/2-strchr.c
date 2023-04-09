@@ -4,9 +4,10 @@
 #include <ctype.h>
 #include <string.h>
 
-/* _putchar */
+/* 2-strchr.c */
 
-int _putchar(char c)
+char *_strchr(char *s, char c)
 {
-    return putchar(c);
+    return strchr(s, c);
 }
+

@@ -4,9 +4,10 @@
 #include <ctype.h>
 #include <string.h>
 
-/* _putchar */
+/* 3-islower.c */
 
-int _putchar(char c)
+int _islower(int c)
 {
-    return putchar(c);
+    return (c >= 'a' && c <= 'z');
 }
+

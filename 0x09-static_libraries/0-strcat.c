@@ -4,9 +4,9 @@
 #include <ctype.h>
 #include <string.h>
 
-/* _putchar */
+/*_strcat */
 
-int _putchar(char c)
+char *_strcat(char *abc, char *xyz)
 {
-    return putchar(c);
+    return strcat(abc, xyz);
 }

@@ -4,9 +4,9 @@
 #include <ctype.h>
 #include <string.h>
 
-/* _putchar */
+/* 2-strncpy.c */
 
-int _putchar(char c)
+char *_strncpy(char *dest, char *src, int n)
 {
-    return putchar(c);
+    return strncpy(dest, src, n);
 }

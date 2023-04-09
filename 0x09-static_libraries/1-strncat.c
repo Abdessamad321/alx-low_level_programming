@@ -4,9 +4,9 @@
 #include <ctype.h>
 #include <string.h>
 
-/* _putchar */
+/* 1-strncat.c */
 
-int _putchar(char c)
+char *_strncat(char *dest, char *src, int n)
 {
-    return putchar(c);
+    return strncat(dest, src, n);
 }

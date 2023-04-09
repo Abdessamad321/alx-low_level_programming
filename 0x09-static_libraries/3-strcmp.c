@@ -4,9 +4,9 @@
 #include <ctype.h>
 #include <string.h>
 
-/* _putchar */
+/* 3-strcmp.c */
 
-int _putchar(char c)
+int _strcmp(char *s1, char *s2)
 {
-    return putchar(c);
+    return strcmp(s1, s2);
 }

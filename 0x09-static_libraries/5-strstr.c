@@ -4,9 +4,9 @@
 #include <ctype.h>
 #include <string.h>
 
-/* _putchar */
+/* 5-strstr.c */
 
-int _putchar(char c)
+char *_strstr(char *haystack, char *needle)
 {
-    return putchar(c);
+    return strstr(haystack, needle);
 }

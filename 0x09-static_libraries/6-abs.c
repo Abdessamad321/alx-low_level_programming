@@ -4,9 +4,9 @@
 #include <ctype.h>
 #include <string.h>
 
-/* _putchar */
+/* 6-abs.c */
 
-int _putchar(char c)
+int _abs(int n)
 {
-    return putchar(c);
+    return abs(n);
 }
