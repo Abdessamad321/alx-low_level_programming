@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /* This program prints its name, followed by a new line.*/
