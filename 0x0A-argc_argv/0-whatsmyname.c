@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include "main.h"
-/* This program prints its name, followed by a new line.
- * Success = 0 */
+
+/**
+ * main - program that prints its name, followed by a new line.
+ * @argc: argument counter
+ * @argv: pointer to array of arguments
+ * Return: 0 on success
+ */
 
 int main(int argc, char *argv[])
 {
