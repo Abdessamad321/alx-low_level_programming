@@ -1,6 +1,6 @@
 #ifndef summ
 #define summ
 
-#define SUM(i, j) ((i)+ (j))
+#define SUM(i, j) ((i) + (j))
 
 #endif
