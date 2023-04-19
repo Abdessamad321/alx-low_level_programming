@@ -1,5 +1,5 @@
-#ifndef calc.h
-#define calc.h
+#ifndef PROTOTYPES
+#define PROTOTYPES
 
 /**
  * struct op - Struct op
