@@ -1,5 +1,5 @@
-#ifndef _calc.h
-#define _calc.h
+#ifndef calc.h
+#define calc.h
 
 /**
  * struct op - Struct op
