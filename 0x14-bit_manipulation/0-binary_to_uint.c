@@ -18,7 +18,7 @@ unsigned int binary_to_uint(const char *b)
 	for (x = 0; b[x] != '\0'; x++)
 		;
 
-	for (x--, base = 1; x >= 0; x--, base_ *= 2)
+	for (x--, base = 1; x >= 0; x--, base *= 2)
 	{
 		if (b[x] != '0' && b[x] != '1')
 		{
@@ -27,7 +27,7 @@ unsigned int binary_to_uint(const char *b)
 
 		if (b[x] & 1)
 		{
-			z += base_;
+			z += base;
 		}
 	}
 
