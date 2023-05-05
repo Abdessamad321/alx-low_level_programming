@@ -1,7 +1,7 @@
-#ifdef main_h
+#ifndef main_h
 #define main_h
 
-#include <srdlib.h>
+#include <stdlib.h>
 
 int _putchar(char c);
 /*Prototypes*/
