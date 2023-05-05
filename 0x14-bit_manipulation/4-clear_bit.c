@@ -3,7 +3,7 @@
 /**
  * clear_bit - this function sets the value of a bit
  ** @n: number
- *** @index: index 
+ *** @index: bit index
  **** Return: 1 (Success), -1 (Error)
  */
 int clear_bit(unsigned long int *n, unsigned int index)
