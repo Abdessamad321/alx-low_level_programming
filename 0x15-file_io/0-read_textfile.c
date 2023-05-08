@@ -3,7 +3,7 @@
 
 /**
  * read_textfile - this function reads a text file and prints it to POSIX standard output.
- ** @filename: A pointer
+ ** @filename: a pointer
  *** @letters: is the num of letters the function should read and print.
  **** Return: 0 (Success)
  */
