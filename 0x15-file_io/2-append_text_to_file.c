@@ -25,7 +25,7 @@ size_t len_func(char *str)
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int num;
-	ssize_t length;
+	ssize_t l;
 
 	if (filename == NULL)
 		return (-1);
@@ -33,9 +33,9 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (num == -1)
 		return (-1);
 	if (text_content != NULL)
-		length = write(num, text_content, len_func(text_content));
+		l = write(num, text_content, len_func(text_content));
 	close(num);
-	if (lenght == -1)
+	if (l == -1)
 		return (-1);
 	return (1);
 }
